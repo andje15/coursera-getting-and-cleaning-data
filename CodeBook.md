@@ -1,0 +1,93 @@
+This code book describes the variables, the data, and any transformations or work that was performed to clean up the data: tidy.txt.
+
+Variables:
+1. subject - identification number of each participants
+2. activity - activity performed by the subject
+
+Data gathered:
+TimeBodyAccMeanZ
+TimeBodyAccStdDevZ
+TimeGravityAccMeanZ
+TimeGravityAccStdDevZ
+TimeBodyAccJerkMeanZ
+TimeBodyAccJerkStdDevZ
+TimeBodyGyroMeanZ
+TimeBodyGyroStdDevZ
+TimeBodyGyroJerkMeanZ
+TimeBodyGyroJerkStdDevZ
+TimeGravityAccMagMean
+TimeBodyAccJerkMagStdDev
+TimeBodyGyroJerkMagMean
+FrequencyBodyAccMeanY
+FrequencyBodyAccStdDevY
+FrequencyBodyAccmeanFreq()Y
+FrequencyBodyAccJerkMeanY
+FrequencyBodyAccJerkStdDevY
+FrequencyBodyAccJerkmeanFreq()Y
+FrequencyBodyGyroMeanY
+FrequencyBodyGyroStdDevY
+FrequencyBodyGyromeanFreq()Y
+FrequencyBodyAccMagStdDev
+FrequencyBodyAccJerkMagStdDev
+FrequencyBodyGyroMagStdDev
+FrequencyBodyGyroJerkMagStdDev
+TimeBodyAccMeanX 
+TimeBodyAccStdDevX
+TimeGravityAccMeanX
+TimeGravityAccStdDevX
+TimeBodyAccJerkMeanX
+TimeBodyAccJerkStdDevX
+TimeBodyGyroMeanX
+TimeBodyGyroStdDevX
+TimeBodyGyroJerkMeanX
+TimeBodyGyroJerkStdDevX
+TimeBodyAccMagMean
+TimeGravityAccMagStdDev
+TimeBodyGyroMagMean
+TimeBodyGyroJerkMagStdDev
+FrequencyBodyAccMeanZ
+FrequencyBodyAccStdDevZ
+FrequencyBodyAccmeanFreq()Z
+FrequencyBodyAccJerkMeanZ
+FrequencyBodyAccJerkStdDevZ
+FrequencyBodyAccJerkmeanFreq()Z
+FrequencyBodyGyroMeanZ
+FrequencyBodyGyroStdDevZ
+FrequencyBodyGyromeanFreq()Z
+FrequencyBodyAccMagmeanFreq()
+FrequencyBodyAccJerkMagmeanFreq()
+FrequencyBodyGyroMagmeanFreq()
+FrequencyBodyGyroJerkMagmeanFreq()
+TimeBodyAccMeanY
+TimeBodyAccStdDevY
+TimeGravityAccMeanY
+TimeGravityAccStdDevY
+TimeBodyAccJerkMeanY
+TimeBodyAccJerkStdDevY
+TimeBodyGyroMeanY
+TimeBodyGyroStdDevY
+TimeBodyGyroJerkMeanY
+TimeBodyGyroJerkStdDevY
+TimeBodyAccMagStdDev
+TimeBodyAccJerkMagMean
+TimeBodyGyroMagStdDev
+FrequencyBodyAccMeanX
+FrequencyBodyAccStdDevX
+FrequencyBodyAccmeanFreq()X
+FrequencyBodyAccJerkMeanX
+FrequencyBodyAccJerkStdDevX
+FrequencyBodyAccJerkmeanFreq()X
+FrequencyBodyGyroMeanX
+FrequencyBodyGyroStdDevX
+FrequencyBodyGyromeanFreq()X
+FrequencyBodyAccMagMean
+FrequencyBodyAccJerkMagMean
+FrequencyBodyGyroMagMean
+FrequencyBodyGyroJerkMagMean
+
+Transformation on the data:
+The average of each variable was taken for each activity and each subject.
+
+Data clean-up:
+Merging the training and test datasets.
+Creating appropriate and understandable variable names (includes correcting typographical errors).
